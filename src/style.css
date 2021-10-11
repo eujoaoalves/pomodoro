@@ -1,0 +1,65 @@
+body,
+html {
+  height: 100%;
+  background-color: #0a243e;
+  color: #fff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.trigger-btn {
+  height: 60px;
+  width: 130px;
+  margin: 10px;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #fff;
+}
+.trigger-btn:hover,
+.time-btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.39);
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.39);
+}
+#start {
+  background-color: #5bb85d;
+}
+#stop {
+  background-color: #c60f13;
+}
+#reset {
+  background-color: rgb(189, 189, 189);
+}
+
+#time-container {
+  height: 300px;
+  width: 300px;
+  margin: 160px;
+  border-radius: 50%;
+  border: 1px solid rgb(165, 161, 161);
+}
+#time-container p {
+  font-size: 45px;
+}
+.time-btn {
+  height: 40px;
+  width: 247px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #164e81;
+  border: none;
+}
